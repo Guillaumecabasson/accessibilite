@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+ <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Eléments pour l'esport et accessibilité numérique" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Accueil | Esport et accessibilité numérique</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="./css/style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <a href="#main-content" id="GoToContent">Aller au contenu</a>
+	<header role="banner">
+		<script src="header.js"></script> 
+	</header>
+
+    <main role="main">
+      <a id="main-content" tabindex="-1"></a>
+      <section class="section">
+        <div>
+          <h1 class="title is-1">Nous contacter</h1>
+		  <h2 class="title is-2">Une remarque ? Une suggestion ? N'hésitez pas à nous écrire</h1>
+          <div>
+		  <p> Champs obligatoires *</p>
+            <form method="post" action="">
+              <fieldset class="box">
+                <legend class="title is-4">Informations générales</legend>
+                <div>
+				  
+                  <label class="label" for="nomInput">
+                    Votre Nom *
+                    <span id="erreurNom" style="visibility:hidden; color:red;">Veuillez renseigner votre nom</span>
+                  </label>
+				  <input class="input" type="text" id="nomInput" name="nom" required />
+                </div>
+                <div>
+                  <label class="label" for="mailInput">
+					 Votre e-mail *
+                    <span id="erreurMail" style="visibility:hidden; color:red;">Veuillez renseigner votre email</span>
+                  </label>
+				  <input class="input" type="email" id="mailInput" name="mail" required/>
+                </div>
+				 <div>
+                  <label class="label" for="sujetInput">
+					Sujet *
+                    <span id="erreurSujet" style="visibility:hidden; color:red;">Veuillez renseigner un sujet</span>
+                  </label>
+				  <input class="input" type="text" id="sujetInput" name="sujet" required title="Votre sujet de message"/>
+                </div>
+              </fieldset>
+              <fieldset class="box">
+                <legend class="title is-4">Votre message</legend>
+                <div>
+                  <label class="label" for="messageTextarea">
+                    Contenu de votre message *
+                    <span id="erreurMessage" style="visibility:hidden; color:red;"
+					  aria-labelledby="erreurMessage helpMessage">Veuillez renseigner un message.</span>
+                  </label>
+				  <textarea class="textarea" type="text" id="messageTextarea" name="message" maxlength="255"
+                      aria-describedby="helpMessage"
+                      required>
+				  </textarea>
+                </div>
+                <small id="helpMessage">500 caractères maximum.</small>
+              </fieldset>
+              <div class="field">
+                <input type="submit" value="Envoyer le message" style="background: #3273dc; color: white; border-radius: .5em; width:10em; height:3em; font-size: 1.4em;" 
+                onclick="verifFormulaire();"/>
+              </div>
+            </form>
+			<script src="verifForm.js"></script>
+          </div>
+          <p class="retour-accueil">
+            <a class="lien" href="index.html">Retour à l'accueil</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer role="contentinfo" class="footer">
+		<script src="footer.js"></script> 
+	</footer>
+  </body>
+</html>

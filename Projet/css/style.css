@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+	float: left;
+	margin-top: .8rem;
+	margin-right: 4rem;
+	
+}
+.menu {
+	background-color: #333;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.topnav a:hover{
+  background-color: #ddd;
+  color: black;
+}
+
+a i {
+	margin-top: -5rem;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+  .topnav a {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+	margin-bottom: 2rem;
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+	
+  }
+  .topnav.responsive a {
+	display: block;
+    float: none;
+    text-align: left;
+	
+  }
+}
+
+
+#logo{
+	pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+}
+
+
+#GoToContent {
+  position: absolute;
+  left: -999999em;
+  color: #325398;
+  font-size: 1.2em;
+}
+
+#GoToContent:focus {
+  position: static;
+  outline: .25em solid black;
+}
+
+h1{
+	font-size: 3em;
+	font-weight: bold;
+}
+
+footer a:focus{
+	outline: .25em solid black;
+}
+header a:focus{
+	border-bottom: .25em solid white;
+	border-top: .25rem solid white;
+	border-left: .25rem solid white;
+	border-right: .25rem solid white;
+}
+
+main a:focus{
+	outline: .25em solid black;
+}
+
+table{
+	 border-collapse: collapse;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+
+table, th, td{
+	border: .1em solid black;
+}
+table th {
+  background-color: #6439B1;
+  color: #FFFF;
+}
+th, td{
+	padding-top: 1em;
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-bottom: 1em;
+}
+
+caption{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.field :focus{
+	outline: .25em solid black;
+}
+
