@@ -1,122 +1,167 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="main_fr.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <title>Explorer | MR 4 A11Y</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="main_fr.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+  <title>Explorer</title>
 </head>
+
 <body>
-    <header role="banner">
-        <nav role="navigation" aria-label="Menu principal" class="navbar navbar-expand-lg navbar-light bg-light" id="nav-bar" >
-            <a class="navbar-brand" href="index_fr.html"><img src="assets/CGI.png" alt="Realité Mixte pour l'accessibilité (retour
+  <header role="banner">
+    <nav role="navigation" aria-label="Menu principal" class="navbar navbar-expand-lg navbar-light bg-light"
+      id="nav-bar">
+      <a class="navbar-brand" href="index_fr.html"><img src="assets/CGI.png" alt="Realité Mixte pour l'accessibilité (retour
               à l'acceuil)"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Basculer la navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="index_fr.html">ACCEUIL</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="explore_fr.html">EXPLORER</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="aboutUs_fr.html">A PROPOS </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Contact_fr.html" >NOUS CONTACTER</a>
-                </li>
-              </ul>
-              <div>
-                <a class="btn btn-link" lang="fr" hreflang="fr" href="explore.html"><img  src="assets/british flag.png" alt="" width="20" height="20"> English Version</a>
-                <form class="form-inline my-2 my-lg-0" role="search">
-                  <input class="form-control mr-sm-2" type="search" placeholder="Entrez un terme..." aria-label="Recherche">
-                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="btn">Rechercher</button>
-                </form>
-              </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Basculer la navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index_fr.html">ACCEUIL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="explore_fr.html">EXPLORER</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutUs_fr.html">A PROPOS </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact_fr.html">NOUS CONTACTER</a>
+          </li>
+        </ul>
+        <div>
+          <a class="btn btn-link" lang="fr" hreflang="fr" href="explore.html"><img src="assets/british flag.png" alt=""
+              width="20" height="20"> English Version</a>
+          <form class="form-inline my-2 my-lg-0" role="search">
+            <input class="form-control mr-sm-2" type="search" placeholder="Entrez un terme..." aria-label="Recherche">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="btn">Rechercher</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+  </header>
+
+  <main role="main">
+    <section id="blog" tabindex="0">
+
+      <div class="container1">
+        <h1>Découvrez Des Articles Connexes</h1>
+        <div class="row">
+
+          <div class="col-md-4 text-center" tabindex="0">
+            <div class="container2" id="module1">
+              <h3>Applications de la réalité mixte</h3>
+              <p class="collapse" id="collapseExample" aria-expanded="false">
+                La réalité mixte existe depuis des années, mais ce n'est qu'au cours des 10 dernières années qu'elle est
+                remontée à la surface grâce au développement avancé de smartphones avec Android et iOS, équipés de
+                gyroscopes, de GPS et de caméras qui s'améliorent de plus en plus avec les années. venir. Ce
+                développement a conduit à la réalisation de véritables capacités pour la réalité mixte. Ce dernier
+                combine la réalité virtuelle et le monde réel sous forme de vidéos graphiquement améliorées. Et peut
+                être expérimenté soit avec des casques que les gens portent, soit simplement avec des appareils mobiles
+                que nous avons avec nous tous les jours.
+                <span id="img"><img class="img-responsive" src="assets/Mobile_device_showing_augmented_reality.jpg"
+                    alt="Appareil mobile montrant la réalité augmentée"></span>
+                Les militaires utilisent la réalité augmentée pour aider les hommes et les femmes à effectuer des
+                réparations sur le terrain. Le personnel médical utilise la RA pour se préparer aux chirurgies. Les
+                applications commerciales et éducatives possibles sont illimitées. Surtout lors de la dernière pandémie
+                où la distance représentait un énorme obstacle pour l'éducation. MR a encore de la place pour prouver
+                que cela peut être LA solution dans de telles circonstances.
+              </p>
+              <a role="button" class="collapsed" data-toggle="collapse" href="#collapseExample" aria-expanded="false"
+                aria-controls="collapseExample">
+              </a>
             </div>
-          </nav>
-       
-         
-        </header>
-
-    <main role="main">
-      <section id="blog" tabindex="0">
-
-        <div class="container1" >
-          <h1>Découvrez Des Articles Connexes</h1>
-          <div class="row">
-
-            <div class="col-md-4 text-center" tabindex="0">
-              <div class="container2" id="module1">
-                <h3>Applications de la réalité mixte</h3>
-                <p class="collapse" id="collapseExample" aria-expanded="false">
-                  La réalité mixte existe depuis des années, mais ce n'est qu'au cours des 10 dernières années qu'elle est remontée à la surface grâce au développement avancé de smartphones avec Android et iOS, équipés de gyroscopes, de GPS et de caméras qui s'améliorent de plus en plus avec les années. venir. Ce développement a conduit à la réalisation de véritables capacités pour la réalité mixte. Ce dernier combine la réalité virtuelle et le monde réel sous forme de vidéos graphiquement améliorées. Et peut être expérimenté soit avec des casques que les gens portent, soit simplement avec des appareils mobiles que nous avons avec nous tous les jours.
-                  <span id="img"><img class="img-responsive" src="assets/Mobile_device_showing_augmented_reality.jpg" alt="Appareil mobile montrant la réalité augmentée"></span> 
-                  Les militaires utilisent la réalité augmentée pour aider les hommes et les femmes à effectuer des réparations sur le terrain. Le personnel médical utilise la RA pour se préparer aux chirurgies. Les applications commerciales et éducatives possibles sont illimitées. Surtout lors de la dernière pandémie où la distance représentait un énorme obstacle pour l'éducation. MR a encore de la place pour prouver que cela peut être LA solution dans de telles circonstances.
-                </p>
-                <a role="button" class="collapsed" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                </a>
-              </div>
-            </div>
-
-            <div class="col-md-4 text-center" tabindex="0">
-              <div class="container2" id="module2">
-                <h3>Comment la réalité mixte peut aider les personnes handicapées</h3>
-                <div class="collapse" id="collapseExample2" aria-expanded="false">
-                    Selon des chercheurs et d'autres experts en technologie, il est possible d'utiliser la technologie AR et VR pour améliorer la qualité des personnes handicapées.
-                    La réalité virtuelle peut potentiellement aider les personnes handicapées de différentes manières.
-                  <ol class="list">
-                    <li>Éducation</li>
-                    Dans une de ces études, les chercheurs ont utilisé des programmes de formation en réalité virtuelle pour enseigner aux enfants autistes comment traverser les routes en toute sécurité. Après un exercice d'un mois, les chercheurs ont établi que la formation en réalité virtuelle améliorait considérablement la capacité des enfants à traverser la route.
-                    <li>Itinéraire</li>
-                    En visitant de nouveaux endroits, il est souvent difficile pour les personnes handicapées physiques de planifier des itinéraires à emprunter autour d'une ville. La réalité virtuelle peut aider à fournir un environnement simulé de la ville et ainsi permettre à la personne handicapée d'avoir une idée de la ville et de s'habituer aux itinéraires les plus accessibles à emprunter.                   
-                    <li>Récupération Musculaire</li>
-                    La réalité virtuelle est également utile pour aider les personnes qui ont souffert d'accidents vasculaires cérébraux ou de blessures liées au sport et même de problèmes du système vestibulaire à améliorer leurs capacités motrices et à aider à la récupération musculaire. Selon les recherches, même le fait d'imaginer que l'on est en train d'effectuer une activité suffit à stimuler les parties pertinentes du cerveau nécessaires à cette activité.                   
-                    <li>Malvoyant</li>
-                    Certaines conditions telles que la maladie de Stargardt peuvent entraîner une déficience visuelle sous la forme d'une vision centrale détaillée réduite. Cependant, la recherche a établi qu'il est possible d'utiliser la RV pour aider les personnes ayant de telles déficiences visuelles à voir les images avec plus de clarté.                 
-                </ol>
-                </div>
-                <a role="button" class="collapsed" data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
-                </a>
-              </div>
-            </div>
-
-            <div class="col-md-4 text-center" tabindex="0">
-              <div class="container2" id="module3">
-                <h3>Les opportunités pour les utilisateurs handicapés ne peuvent que croître</h3>
-                <p class="collapse" id="collapseExample3" aria-expanded="false">
-                    La raison pour laquelle la RA et la RV sont si appréciées des joueurs et d'autres industries est qu'elles rendent l'impossible possible. Pour certains, ce ne sont que des jeux qui offrent une nouvelle opportunité dans un monde fantastique; pour d'autres, ce sont des outils de résolution de problèmes dans l'architecture, la sécurité et d'autres secteurs.
-                    Quoi qu'il en soit, cette nouvelle réalité permet aux utilisateurs de repousser les limites. Cela signifie que la réalité virtuelle pour la désactivation est un pas en avant massif pour permettre aux personnes incapables de repousser leurs limites. Ils peuvent voir le monde sous un nouveau jour. Cela peut être social, récréatif, éducatif ou professionnel.
-                <span id="img"><img class="img-responsive" src="assets/autism_and_vr.jpg" alt="enfant autiste apprenant grâce à la réalité virtuelle"></span> 
-                
-                </p>
-                <a role="button" class="collapsed" data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
-                </a>
-              </div>
-            </div>
-
-
-
           </div>
-        </div>
-      </section>    
-    </main>
 
-    <footer role="contentinfo" tabindex="0">
-        <div id="footer">
-            <span>@Université de Lorraine 2020/2021 - Interaction Humain Machine  </span>
-        </div>
-    </footer>
+          <div class="col-md-4 text-center" tabindex="0">
+            <div class="container2" id="module2">
+              <h3>Comment la réalité mixte peut aider les personnes handicapées</h3>
+              <div class="collapse" id="collapseExample2" aria-expanded="false">
+                Selon des chercheurs et d'autres experts en technologie, il est possible d'utiliser la technologie AR et
+                VR pour améliorer la qualité des personnes handicapées.
+                La réalité virtuelle peut potentiellement aider les personnes handicapées de différentes manières.
+                <ol class="list">
+                  <li>Éducation</li>
+                  Dans une de ces études, les chercheurs ont utilisé des programmes de formation en réalité virtuelle
+                  pour enseigner aux enfants autistes comment traverser les routes en toute sécurité. Après un exercice
+                  d'un mois, les chercheurs ont établi que la formation en réalité virtuelle améliorait considérablement
+                  la capacité des enfants à traverser la route.
+                  <li>Itinéraire</li>
+                  En visitant de nouveaux endroits, il est souvent difficile pour les personnes handicapées physiques de
+                  planifier des itinéraires à emprunter autour d'une ville. La réalité virtuelle peut aider à fournir un
+                  environnement simulé de la ville et ainsi permettre à la personne handicapée d'avoir une idée de la
+                  ville et de s'habituer aux itinéraires les plus accessibles à emprunter.
+                  <li>Récupération Musculaire</li>
+                  La réalité virtuelle est également utile pour aider les personnes qui ont souffert d'accidents
+                  vasculaires cérébraux ou de blessures liées au sport et même de problèmes du système vestibulaire à
+                  améliorer leurs capacités motrices et à aider à la récupération musculaire. Selon les recherches, même
+                  le fait d'imaginer que l'on est en train d'effectuer une activité suffit à stimuler les parties
+                  pertinentes du cerveau nécessaires à cette activité.
+                  <li>Malvoyant</li>
+                  Certaines conditions telles que la maladie de Stargardt peuvent entraîner une déficience visuelle sous
+                  la forme d'une vision centrale détaillée réduite. Cependant, la recherche a établi qu'il est possible
+                  d'utiliser la RV pour aider les personnes ayant de telles déficiences visuelles à voir les images avec
+                  plus de clarté.
+                </ol>
+              </div>
+              <a role="button" class="collapsed" data-toggle="collapse" href="#collapseExample2" aria-expanded="false"
+                aria-controls="collapseExample2">
+              </a>
+            </div>
+          </div>
 
-  </body>
- 
+          <div class="col-md-4 text-center" tabindex="0">
+            <div class="container2" id="module3">
+              <h3>Les opportunités pour les utilisateurs handicapés ne peuvent que croître</h3>
+              <p class="collapse" id="collapseExample3" aria-expanded="false">
+                La raison pour laquelle la RA et la RV sont si appréciées des joueurs et d'autres industries est
+                qu'elles rendent l'impossible possible. Pour certains, ce ne sont que des jeux qui offrent une nouvelle
+                opportunité dans un monde fantastique; pour d'autres, ce sont des outils de résolution de problèmes dans
+                l'architecture, la sécurité et d'autres secteurs.
+                Quoi qu'il en soit, cette nouvelle réalité permet aux utilisateurs de repousser les limites. Cela
+                signifie que la réalité virtuelle pour la désactivation est un pas en avant massif pour permettre aux
+                personnes incapables de repousser leurs limites. Ils peuvent voir le monde sous un nouveau jour. Cela
+                peut être social, récréatif, éducatif ou professionnel.
+                <span id="img"><img class="img-responsive" src="assets/autism_and_vr.jpg"
+                    alt="enfant autiste apprenant grâce à la réalité virtuelle"></span>
+
+              </p>
+              <a role="button" class="collapsed" data-toggle="collapse" href="#collapseExample3" aria-expanded="false"
+                aria-controls="collapseExample3">
+              </a>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo" tabindex="0">
+    <div id="footer">
+      <span>@Université de Lorraine 2020/2021 - Interaction Humain Machine </span>
+    </div>
+  </footer>
+
+</body>
+
 </html>
