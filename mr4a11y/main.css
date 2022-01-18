@@ -90,7 +90,6 @@ textarea {
   padding-bottom: 50px;
   margin-left: 30px;
   margin-right: 30px;
-  text-align: justify;
 }
 
 #intro h1 {
@@ -155,7 +154,6 @@ textarea {
   color: black;
   font-family: monospace monaco;
   font-size: 16px;
-  text-align: justify;
 }
 .blog {
   padding-top: 1em;
@@ -249,9 +247,6 @@ textarea {
   font-size: 1em;
   padding-top: 1em;
   font-weight: bold;
-}
-.container {
-  text-align: justify;
 }
 .container1 {
   margin: 2em;
