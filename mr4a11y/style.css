@@ -142,7 +142,7 @@ textarea {
   margin: 20px auto 5px;
 }
 #blog h3 {
-  font-size: 2em;
+  font-size: 1em;
   text-align: center;
   color: dimgrey;
   padding-bottom: 0.5em;
@@ -248,6 +248,7 @@ i {
 }
 
 h2 {
+  font-size: 3em;
   color: rgb(88, 88, 88);
 }
 
