@@ -45,7 +45,7 @@ body {
   color: white;
 }
 
-
+/*** Bouton switch language **/
 #switchLang {
   color: #272424;
 }
@@ -259,7 +259,8 @@ i {
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 2em;
+  text-align : center;
   color: rgb(88, 88, 88);
 }
 
