@@ -45,6 +45,17 @@ body {
   color: white;
 }
 
+
+#switchLang {
+  color: #272424;
+}
+
+#switchLang:hover {
+  color : blue;
+  font-weight : bold;
+  text-decoration:none;
+}
+
 /*** Form**/
 #form {
   display: inline-block;
