@@ -254,3 +254,49 @@ h2 {
 #use-case > div {
   margin-bottom: 30px;
 }
+
+/*** SEARCH ***/
+
+body{
+  margin: 0; 
+  padding: 0;
+  background: #ebebeb;
+}
+.box{
+  position: absolute;
+  top: 50%;
+  left: 85%;
+  transform: translate(-50%,-50%);
+}
+.input {
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  background: rgb(241, 241, 241);
+  border: 1px solid #000000;
+  border-radius: 20px;
+  box-sizing: border-box;
+  font-family: Comic Sans MS;
+  font-size: 20px;
+  color: #050504;
+  outline: none;
+  transition: .5s;
+}
+.box:hover input{
+  width: 250px;
+  background: #faf5f5;
+  border-radius: 10px;
+}
+i{
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translate(20%,-50%);
+  font-size: 15px;
+  color: #000000;
+  transition: .2s;
+}
+.box:hover i{
+  opacity: 0;
+  z-index: -1;
+}
