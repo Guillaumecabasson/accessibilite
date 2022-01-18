@@ -187,6 +187,14 @@ textarea {
 
 }
 
+.sources {
+  font-size: 1em;
+  text-align: center;
+  color: rgb(194, 10, 10);
+  padding-bottom: 0.5em;
+  padding-top: 1em;
+}
+
 /**** Explore ***/
 
 #module1 #collapseExample.collapse:not(.show) {
