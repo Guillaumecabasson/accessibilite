@@ -199,6 +199,12 @@ textarea {
   padding-top: 1em;
 }
 
+.link {
+  font-size: 1em;
+  text-align: center;
+  color: rgb(173, 10, 87);
+}
+
 /**** Explore ***/
 
 #module1 #collapseExample.collapse:not(.show) {
